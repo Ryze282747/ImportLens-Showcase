@@ -1,10 +1,15 @@
-Changelog
+# Changelog
 
 All notable changes to ImportLens will be documented in this file.
 
-[1.0.0] - 2026-11-05
+## [1.0.1] - 2026-11-14
 
-Added
+### Changed
+- Updated plugin price from ₹75 to ₹30 INR.
+
+## [1.0.0] - 2026-11-05
+
+### Added
 
 - Initial release of ImportLens.
 - Automatic import insertion for unresolved identifiers.
@@ -19,14 +24,14 @@ Added
 - Support for JavaScript (".js") and React JavaScript (".jsx").
 - Support for TypeScript (".ts") and React TypeScript (".tsx").
 
-Improved
+### Improved
 
 - Streamlined import suggestions for a more convenient coding experience.
 - Improved import generation with customizable quote styles and semicolons.
 - Configurable suggestion limits and analysis delay.
 - Enhanced customization through plugin settings.
 
-Planned
+### Planned
 
 - Support for additional programming languages.
 - Expanded language compatibility.
