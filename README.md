@@ -1,9 +1,9 @@
 ## ImportLens
 
 Workspace-aware automatic import suggestions and module resolution for Acode.
-ImportLens is a premium Acode plugin designed to make JavaScript and TypeScript development faster and more convenient.
+ImportLens is a premium Acode plugin designed to make development faster and more convenient across JavaScript, TypeScript, and Python projects.
 
-It scans your project workspace, indexes available exports, and detects unresolved identifiers in your code. When a matching export is found, ImportLens provides an import suggestion directly inside the editor through an interactive ghost-import preview.
+It scans your project workspace, indexes available exports, and detects unresolved identifiers in your code. When a matching export is found, ImportLens provides an interactive ghost-import preview directly inside the editor, allowing you to insert the suggested import with a tap.
 
 ### Why ImportLens?
 
@@ -16,15 +16,17 @@ ImportLens does not replace LSP or its diagnostic capabilities. Both can be used
 
 ## Features
 
-- Automatic import insertion.
-- Ghost import suggestions.
-- Workspace scanning.
-- Smart module resolution.
+- Automatic import suggestions for unresolved identifiers.
+- Interactive ghost-import previews directly inside the editor.
+- Workspace scanning to discover available exports.
+- Smart module resolution for local project files.
 - Multiple import suggestions.
-- Named import merging.
+- Named and default import support.
+- Named import merging from the same module.
 - Duplicate import prevention.
-- Customizable settings.
-- JavaScript and TypeScript support.
+- Configurable import formatting, including quote styles and semicolons.
+- Customizable suggestion limits and analysis delay.
+- JavaScript, TypeScript, and Python support.
 
 ## Screenshots
 
@@ -42,10 +44,21 @@ ImportLens does not replace LSP or its diagnostic capabilities. Both can be used
 
 ## Supported Languages
 
+### JavaScript
+
 - JavaScript (".js")
 - React JavaScript (".jsx")
+
+### TypeScript
+
 - TypeScript (".ts")
 - React TypeScript (".tsx")
+
+### Python
+
+- Python (".py")
+- Python Stub (".pyi")
+- Python Alternate (".pyw")
 
 ## Installation
 
@@ -59,12 +72,12 @@ ImportLens is distributed as a premium plugin through the Acode Plugin Store.
 ## Requirements
 
 - Acode editor.
-- A JavaScript or TypeScript project.
+- A supported JavaScript, TypeScript, or Python project.
 - Project files accessible to the workspace scanner.
 
 ## Version
 
-Current version: 1.0.0
+Current version: 1.1.1
 
 See [CHANGELOG.md](https://github.com/Ryze282747/ImportLens-Showcase/blob/main/CHANGELOG.md) for release history.
 

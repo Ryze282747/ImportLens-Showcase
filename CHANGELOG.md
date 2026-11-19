@@ -2,6 +2,20 @@
 
 All notable changes to ImportLens will be documented in this file.
 
+## [1.1.1] - 2026-11-20
+
+### Added
+- Added Python import suggestions and module resolution support.
+- Added support for Python files (.py, .pyw, and .pyi).
+
+### Improved
+- Improved Python identifier analysis and declaration detection.
+- Improved import suggestions for Python modules.
+- Improved workspace scanning and module resolution.
+
+### Changed
+- Reduced plugin price from ₹30 INR to ₹15 INR.
+
 ## [1.0.1] - 2026-11-14
 
 ### Changed
